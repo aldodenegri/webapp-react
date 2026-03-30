@@ -5,7 +5,7 @@ function Navbar(){
         <>
             <nav>
                 <NavLink className={style.link} to="/">HomePage </NavLink> {/*navlink rispetto a link aggiunge una classe active*/}
-                <NavLink className={style.link} to="/Film"></NavLink>
+                <NavLink className={style.link} to="/Film">Film</NavLink>
             </nav>
         </>
     );
